@@ -9,11 +9,14 @@ public class Main {
         /*InquiryExemption inquiryExemption = new InquiryExemption();
         Investigator investigator = new AdditionalInfo(inquiryExemption);
         ((AdditionalInfo) investigator).GiveInfo();*/
-        System.out.println("status = true");
+        /*System.out.println("status = true");
         Investigator investigator = new Investigator(true);
         System.out.println("\nstatus = false");
-        Investigator investigator1 = new Investigator(false);
+        Investigator investigator1 = new Investigator(false);*/
+
+        Administrator administrator = new Administrator();
 
     }
+
 
 }
