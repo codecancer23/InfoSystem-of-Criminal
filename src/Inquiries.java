@@ -4,4 +4,6 @@ public interface Inquiries {
     public void setSusID(int susID);
     public void setInvestID(int investID);
 
+    public void Out();
+
 }

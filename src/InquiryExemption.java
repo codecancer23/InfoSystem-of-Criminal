@@ -23,4 +23,9 @@ public class InquiryExemption implements Inquiries {
     public void setInvestID(int investID) {
         this.investID = investID;
     }
+
+    @Override
+    public void Out() {
+        System.out.println("Exemption");
+    }
 }
